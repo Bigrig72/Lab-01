@@ -1,0 +1,174 @@
+.firstbox .secondbox .thirdbox .fourthbox .middlecontainer .bottomcontainer  {
+  width: 100%;
+}
+body {
+  margin: auto;
+  width: 480px;
+  background: rgb(163, 144, 144)
+}
+p {
+  text-align: center;
+}
+
+.first {
+  display: block;
+  height: 75px;
+  border: 1px dotted #000;
+  background:rgb(209, 108, 108);
+  box-sizing: border-box;
+}
+
+.second {
+  display: block;
+  height: 150px;
+  border: 1px dotted #000;
+  background:rgb(114, 114, 168);
+  box-sizing: border-box;
+
+}
+
+.third {
+  display: block;
+  height: 125px;
+  border: 1px dotted #000;
+  background:rgb(102, 126, 102);
+  box-sizing: border-box;
+
+}
+
+.fourth {
+  display: block;
+  height: 125px;
+  border: 1px dotted #000;
+  background: rgb(161, 184, 77);
+  box-sizing: border-box;
+}
+
+
+.box-g {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 250px;
+  border: 1px dotted #000;
+  background: rgb(103, 57, 109);
+  box-sizing: border-box;
+}
+
+.box-h {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 250px;
+  box-sizing: border-box;
+  background-color: #333;
+  border: 1px dotted #000;
+
+}
+.box-e {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 250px;
+  border: 1px dotted #000;
+  background: rgb(16, 218, 66);
+  box-sizing: border-box;
+}
+
+.box-f {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 250px;
+  box-sizing: border-box;
+  background-color: rgb(39, 192, 219);
+  border: 1px dotted #000;
+}
+.footer-1 {
+  width: 100%;
+}
+
+.box-I {
+  display: block;
+  clear: both;
+  height: 75px;
+  border: 1px dotted #000;
+  background: rgb(235, 82, 11);
+  box-sizing: border-box;
+  }
+
+  @media (min-width: 768px) {
+    body{
+      margin: auto;
+      width: 960px;
+      background: rgb(158, 144, 144)
+    }
+    .first {
+     width: 100%;
+     height: 100px;
+     background: rgb(0, 236, 98)
+    }
+    .second {
+      width: 20.833%;
+      float: left;
+      height: 600px;
+      background: rgb(112, 10, 230)
+    
+    }
+
+    .third {
+      width: 39.583%;
+      height: 200px;
+      float: left;
+      background: rgb(17, 103, 216)
+    }
+
+    .fourth {
+      width: 39.583%;
+      height: 200px;
+      float: left;
+      background: rgb(20, 123, 131)
+    }
+
+    .box-g {
+      width: 19.791%;
+      height: 250px;
+      float: left;
+      background: rgb(68, 11, 202)
+    }
+
+    .box-h {
+    width: 19.791%;
+    height: 250px;
+    float: left;
+    background: rgb(97, 2, 2)
+  }
+
+    .box-e {
+    width: 19.791%;
+    height: 250px;
+    float: left;
+    background: rgb(62, 158, 126)
+  }
+
+  .box-f {
+    width: 19.791%;
+    height: 250px;
+    float: left;
+    background: rgb(231, 209, 5)
+  }
+
+  .box-I {
+  height: 150px;
+  background: rgb(243, 2, 134)
+  }
+
+.footer-1 {
+  width: 79.167%;
+  float: left;
+  height: 150px;
+  
+}
+
+
+  }
