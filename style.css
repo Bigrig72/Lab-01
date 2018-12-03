@@ -1,25 +1,36 @@
-.firstbox .secondbox .thirdbox .fourthbox .middlecontainer .bottomcontainer  {
-  width: 100%;
+.firstfourboxes {
+ 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+    
 }
+
 body {
   margin: auto;
   width: 480px;
   background: rgb(163, 144, 144)
 }
+
 p {
   text-align: center;
 }
 
 .first {
-  display: block;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   height: 75px;
-  border: 1px dotted #000;
+  border: 1px dotted #000; 
   background:rgb(209, 108, 108);
   box-sizing: border-box;
+  
 }
 
 .second {
-  display: block;
+  display: flex;
+  justify-content: center;
   height: 150px;
   border: 1px dotted #000;
   background:rgb(114, 114, 168);
@@ -28,7 +39,8 @@ p {
 }
 
 .third {
-  display: block;
+  display: flex;
+  justify-content: center;
   height: 125px;
   border: 1px dotted #000;
   background:rgb(102, 126, 102);
@@ -37,17 +49,24 @@ p {
 }
 
 .fourth {
-  display: block;
+  display: flex;
+  justify-content: center;
   height: 125px;
   border: 1px dotted #000;
   background: rgb(161, 184, 77);
   box-sizing: border-box;
 }
 
+.middlecontainer {
+  display: flex;
+  flex-direction: row;
+
+ }
 
 .box-g {
-  display: block;
-  float: left;
+  display: flex;
+  justify-content: center;
+  
   width: 50%;
   height: 250px;
   border: 1px dotted #000;
@@ -56,8 +75,9 @@ p {
 }
 
 .box-h {
-  display: block;
-  float: left;
+  display: flex;
+  justify-content: center;
+  
   width: 50%;
   height: 250px;
   box-sizing: border-box;
@@ -66,8 +86,9 @@ p {
 
 }
 .box-e {
-  display: block;
-  float: left;
+  display: flex;
+  justify-content: center;
+ 
   width: 50%;
   height: 250px;
   border: 1px dotted #000;
@@ -76,7 +97,8 @@ p {
 }
 
 .box-f {
-  display: block;
+  display: flex;
+  justify-content: center;
   float: left;
   width: 50%;
   height: 250px;
@@ -89,7 +111,8 @@ p {
 }
 
 .box-I {
-  display: block;
+  display: flex;
+  justify-content: center;
   clear: both;
   height: 75px;
   border: 1px dotted #000;
